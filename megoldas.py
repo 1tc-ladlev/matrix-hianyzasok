@@ -1,7 +1,7 @@
-#0.feladat: Hiányzások beolvasása listában listákba
+#0. feladat: A hianyzasok.txt beolvasása listákba
 
 hianyzasok=[]
-with open ("./adatok/hianyzasok.txt","r",encoding="utf-8") as fm:
+with open("./adatok/hianyzasok.txt","r",encoding="utf-8") as fm:
     for sor in fm:
         seged_lista=sor.strip().split(",")
         # l=[]
@@ -9,8 +9,6 @@ with open ("./adatok/hianyzasok.txt","r",encoding="utf-8") as fm:
         #     l.append(int(szam))
         # hianyzasok.append(l)
         hianyzasok.append(list(map(int, seged_lista)))
-print("a beolvasott mátrix: ")
-print(hianyzasok)
 
 # 1. Hány óra hiányzás volt összesen?
 #1. feladat: 30 óra hiányzás volt összesen
