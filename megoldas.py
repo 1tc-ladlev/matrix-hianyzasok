@@ -10,15 +10,13 @@ with open("./adatok/hianyzasok.txt","r",encoding="utf-8") as fm:
         # hianyzasok.append(l)
         hianyzasok.append(list(map(int, seged_lista)))
 
-print("A beolvasott mátrix: ")
-print(hianyzasok)
-
-#1. Hány óra hiányzás volt összesen?
+# 1. Hány óra hiányzás volt összesen?
 #1. feladat: 30 óra hiányzás volt összesen
 
 osszeg=0
 for het in hianyzasok:
-    osszeg+=sum(het)
+   osszeg+=sum(het)
+
 print(f"1. feladat: {osszeg} óra hiányzás volt összesen")
 
 # 3. Volt-e olyan hét, amikor ötnél kevesebb hiányzás volt
