@@ -23,9 +23,7 @@ print(f"1. feladat: {osszeg} óra hiányzás volt összesen")
 #2.feladat: Nem volt olyan hét, amikor nem volt hiányzó
 print(f"2. feladat: Nem volt olyan hét, amikor nem volt hiányzó")
 
-
-
 # 3. Volt-e olyan hét, amikor ötnél kevesebb hiányzás volt
 #3. feladat: Volt olyan hét, amikor ötnél kevesebb hiányzó volt
 
-print(f"3.feladat: Volt olyan hét, amikor ötnél kevesebb hiányzó volt.")
+print(f"3. feladat: Volt olyan hét, amikor ötnél kevesebb hiányzó volt.")
